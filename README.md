@@ -1,14 +1,23 @@
-# Case Opener v4.0 - Lua Script
+# ⚡ Case Opener v4.0 - Full Version
 💡 Created by: Mahdiyar100
 
-## Features
-- Auto teleport to a specific position
-- Auto open selected case
-- Auto sell items
-- Adjustable delay between actions
-- Draggable and minimizable UI
+---
 
-## Usage
-1. Place the script in your Roblox executor.
-2. Adjust `teleportPosition`, `selectedCase`, and `delaySpeed` as needed.
-3. Toggle options via UI.
+## 📖 Description
+This is a Lua script for Roblox that provides the following features:  
+- **Auto TP**: Automatically teleport to a specific position.  
+- **Auto Case**: Automatically open the selected case with configurable delay.  
+- **Auto Sell**: Automatically sell items from your Inventory or Backpack.  
+- **Draggable & Minimize/Maximize UI**: The interface can be moved and minimized.  
+- Allows **case selection** from a predefined list.  
+- Adjustable **delay** between each action.
+
+> ⚠️ Note: This script is intended **only for learning Lua and practicing UI in Roblox**. Using it in games may result in account bans.
+
+---
+
+## ⚙️ Configuration
+
+### Change Teleport Position
+```lua
+local teleportPosition = Vector3.new(159.718033, 569.948914, -845.139343)
